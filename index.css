@@ -15,18 +15,18 @@ body {
 /*Cabecalho*/
 
 .cabecalho {
-    height: 10vh;
+    
+    
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    background: #1F5B72;
-    
-    
 
     border-bottom: 0.4px solid whitesmoke;
     border-bottom: -200px;
 }
+
+
 
 .cabecalho-menu {
     position: relative;
@@ -34,8 +34,8 @@ body {
     flex-direction: row;
     gap:50px;
     height: 8vh;
-   
-   
+    
+
 }
 
 .cabecalho-menu-item {
@@ -140,7 +140,61 @@ body {
 }
 
 
+/*Notícias*/
 
+.container-noticias {
+    font-family: 'Courier New', Courier, monospace;
+    color: aliceblue;
+
+    
+
+    
+    position: absolute;
+    border:2px white solid;
+    margin-top: 100px;
+    margin-left:50px;
+    padding-top: 10px;
+    border-radius: 5px;
+}
+h3 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.news {
+    align-items: center;
+    
+    top:1;
+    font-size:20px;
+    display: flex;
+    flex-direction:row;
+    margin-top: 10px;    
+}
+
+.news img{
+    border: #ffffff 1px solid;
+    position: relative;
+    width: 20%;
+    margin-left: 20px;
+}
+
+.titulo-noticia { 
+    position: relative;
+    bottom:220px;
+    left: 340px;
+    color:aliceblue;
+    margin-left: 20px;
+    font-size:20px;
+}
+
+#info-news {
+    position: relative;
+    bottom: 200px;
+    margin-left: 340px;
+
+    
+}
 
 
 

@@ -57,11 +57,7 @@ body {
     transition-duration: 0.10s;
 }
 
-.cabecalho-logo {
-    position: relative;
-    margin-top: 80px;
-    left: -400px;
-}
+
 
 .octopus-cabecalho{
     opacity: 10%;
@@ -109,7 +105,7 @@ body {
     /* se houver duvida esse position deixa a borda do tamaho perfeito*/
     position: absolute;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:aliceblue;
